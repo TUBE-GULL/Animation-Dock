@@ -1,4 +1,4 @@
-[![Watch the video](./img/videoMp4.mp4)]
+[![Watch the video](./img/videoGIF.gif)]
 
 test ideas only sketches for now 
 
