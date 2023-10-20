@@ -67,12 +67,8 @@ cards.forEach((card, index) => {
 
       if (mouseX < center - 5) {
          card.style.transform = `translateZ(200px) translateY(-25px) translateX(-2.5px)`;
-         card.style.marginRight = '4px';
-         card.style.marginLeft = '4px';
       } else if (mouseX > center + 5) {
          card.style.transform = `translateZ(200px) translateY(-25px) translateX(2.5px)`;
-         card.style.marginRight = '4px';
-         card.style.marginLeft = '4px';
       } else {
          card.style.transform = `translateZ(200px) translateY(-30px) translateX(0)`;
       }
@@ -81,7 +77,7 @@ cards.forEach((card, index) => {
    card.addEventListener('click', () => {
       card.style.animation = 'bounce 1s infinite';
       card.style.animation = 'bounce 1.7s infinite ease-in-out';
-
+      // card.style.transitionDelay = ' 0.1s';
       setTimeout(() => {
          card.style.animation = '';
       }, 3200);
